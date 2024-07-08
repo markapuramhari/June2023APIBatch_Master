@@ -132,7 +132,7 @@ public class RA_08_AuthTest {
 	@Test(priority = 6)
 	public void apiKeyAuthTest() {
 		
-		RestAssured.baseURI="api.weatherapi.com";
+		RestAssured.baseURI="https://api.weatherapi.com";
 		
 		String responseBody= given()
 				.queryParam("q", "London")
@@ -143,10 +143,10 @@ public class RA_08_AuthTest {
 		.then()
 			.log().all()
 			.assertThat()
-			.statusCode(200)
+			.statusCode(200)//now getting not found
 			.extract().body().asString();
 		
-		System.out.println("responseBody: "+responseBody.contains("Congratulations"));
+		System.out.println("responseBody: "+responseBody.contains("London"));
 				
 	}
 	

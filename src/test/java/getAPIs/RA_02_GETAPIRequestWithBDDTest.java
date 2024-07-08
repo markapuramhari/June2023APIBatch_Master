@@ -183,7 +183,7 @@ public class RA_02_GETAPIRequestWithBDDTest {
 		Response response= given()
 			.header("Authorization","Bearer 384ded16bee6c5ee59a2e644ca69cf78e10ca68943a525f20bf009944bacd83d")
 		.when()
-			.get("/public/v2/users/7004595");
+			.get("/public/v2/users/7017684");
 		
 		response.then().log().all().statusCode(200)
 		.body("size()", equalTo(5));
@@ -211,7 +211,7 @@ public class RA_02_GETAPIRequestWithBDDTest {
 		Response response=given()
 			.header("Authorization","Bearer 384ded16bee6c5ee59a2e644ca69cf78e10ca68943a525f20bf009944bacd83d")
 		.when()
-			.get("/public/v2/users/7004595")
+			.get("/public/v2/users/7017684")
 		.then()
 			.log().all()
 			.assertThat()

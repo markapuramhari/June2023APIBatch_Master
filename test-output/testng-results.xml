@@ -1,69 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-08T15:09:15 IST" name="Default suite" finished-at="2024-07-08T15:09:20 IST" duration-ms="5256">
+  <suite started-at="2024-07-08T20:36:33 IST" name="Default suite" finished-at="2024-07-08T20:36:45 IST" duration-ms="12775">
     <groups>
     </groups>
-    <test started-at="2024-07-08T15:09:15 IST" name="Default test" finished-at="2024-07-08T15:09:20 IST" duration-ms="5256">
-      <class name="getAPIs.RA_02_GETAPIRequestWithBDDTest">
-        <test-method is-config="true" signature="allureSetup()[pri:0, instance:getAPIs.RA_02_GETAPIRequestWithBDDTest@480d3575]" started-at="2024-07-08T15:09:15 IST" name="allureSetup" finished-at="2024-07-08T15:09:15 IST" duration-ms="359" status="PASS">
+    <test started-at="2024-07-08T20:36:33 IST" name="Default test" finished-at="2024-07-08T20:36:45 IST" duration-ms="12775">
+      <class name="authAPIs.RA_08_AuthTest">
+        <test-method signature="jwtAuthTest()[pri:1, instance:authAPIs.RA_08_AuthTest@740fb309]" started-at="2024-07-08T20:36:33 IST" name="jwtAuthTest" finished-at="2024-07-08T20:36:38 IST" duration-ms="5216" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allureSetup -->
-        <test-method signature="getProductsTest()[pri:1, instance:getAPIs.RA_02_GETAPIRequestWithBDDTest@480d3575]" started-at="2024-07-08T15:09:15 IST" name="getProductsTest" finished-at="2024-07-08T15:09:18 IST" duration-ms="2450" status="PASS">
+        </test-method> <!-- jwtAuthTest -->
+        <test-method signature="basicAuthTest()[pri:2, instance:authAPIs.RA_08_AuthTest@740fb309]" started-at="2024-07-08T20:36:38 IST" name="basicAuthTest" finished-at="2024-07-08T20:36:40 IST" duration-ms="2061" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getProductsTest -->
-        <test-method is-config="true" signature="allureSetup()[pri:0, instance:getAPIs.RA_02_GETAPIRequestWithBDDTest@480d3575]" started-at="2024-07-08T15:09:18 IST" name="allureSetup" finished-at="2024-07-08T15:09:18 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- basicAuthTest -->
+        <test-method signature="preemptiveAuthTest()[pri:3, instance:authAPIs.RA_08_AuthTest@740fb309]" started-at="2024-07-08T20:36:40 IST" name="preemptiveAuthTest" finished-at="2024-07-08T20:36:42 IST" duration-ms="1597" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allureSetup -->
-        <test-method signature="getUserAPITest()[pri:2, instance:getAPIs.RA_02_GETAPIRequestWithBDDTest@480d3575]" started-at="2024-07-08T15:09:18 IST" name="getUserAPITest" finished-at="2024-07-08T15:09:18 IST" duration-ms="321" status="PASS">
+        </test-method> <!-- preemptiveAuthTest -->
+        <test-method signature="digestAuthTest()[pri:4, instance:authAPIs.RA_08_AuthTest@740fb309]" started-at="2024-07-08T20:36:42 IST" name="digestAuthTest" finished-at="2024-07-08T20:36:44 IST" duration-ms="2035" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUserAPITest -->
-        <test-method is-config="true" signature="allureSetup()[pri:0, instance:getAPIs.RA_02_GETAPIRequestWithBDDTest@480d3575]" started-at="2024-07-08T15:09:18 IST" name="allureSetup" finished-at="2024-07-08T15:09:18 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- digestAuthTest -->
+        <test-method signature="getAccessToken()[pri:5, instance:authAPIs.RA_08_AuthTest@740fb309]" started-at="2024-07-08T20:36:44 IST" name="getAccessToken" finished-at="2024-07-08T20:36:45 IST" duration-ms="1565" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allureSetup -->
-        <test-method signature="getProductDataAPIWithQueryParamTest()[pri:3, instance:getAPIs.RA_02_GETAPIRequestWithBDDTest@480d3575]" started-at="2024-07-08T15:09:18 IST" name="getProductDataAPIWithQueryParamTest" finished-at="2024-07-08T15:09:19 IST" duration-ms="386" status="PASS">
+        </test-method> <!-- getAccessToken -->
+        <test-method signature="apiKeyAuthTest()[pri:6, instance:authAPIs.RA_08_AuthTest@740fb309]" started-at="2024-07-08T20:36:45 IST" name="apiKeyAuthTest" finished-at="2024-07-08T20:36:45 IST" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getProductDataAPIWithQueryParamTest -->
-        <test-method is-config="true" signature="allureSetup()[pri:0, instance:getAPIs.RA_02_GETAPIRequestWithBDDTest@480d3575]" started-at="2024-07-08T15:09:19 IST" name="allureSetup" finished-at="2024-07-08T15:09:19 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allureSetup -->
-        <test-method signature="getProductDataAPIWith_Extract_Body()[pri:4, instance:getAPIs.RA_02_GETAPIRequestWithBDDTest@480d3575]" started-at="2024-07-08T15:09:19 IST" name="getProductDataAPIWith_Extract_Body" finished-at="2024-07-08T15:09:19 IST" duration-ms="645" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getProductDataAPIWith_Extract_Body -->
-        <test-method is-config="true" signature="allureSetup()[pri:0, instance:getAPIs.RA_02_GETAPIRequestWithBDDTest@480d3575]" started-at="2024-07-08T15:09:19 IST" name="allureSetup" finished-at="2024-07-08T15:09:19 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allureSetup -->
-        <test-method signature="getProductDataAPIWith_Extract_Body_withArray()[pri:5, instance:getAPIs.RA_02_GETAPIRequestWithBDDTest@480d3575]" started-at="2024-07-08T15:09:19 IST" name="getProductDataAPIWith_Extract_Body_withArray" finished-at="2024-07-08T15:09:20 IST" duration-ms="415" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getProductDataAPIWith_Extract_Body_withArray -->
-        <test-method is-config="true" signature="allureSetup()[pri:0, instance:getAPIs.RA_02_GETAPIRequestWithBDDTest@480d3575]" started-at="2024-07-08T15:09:20 IST" name="allureSetup" finished-at="2024-07-08T15:09:20 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allureSetup -->
-        <test-method signature="getUserAPIWith_Extract_Body_withJson()[pri:6, instance:getAPIs.RA_02_GETAPIRequestWithBDDTest@480d3575]" started-at="2024-07-08T15:09:20 IST" name="getUserAPIWith_Extract_Body_withJson" finished-at="2024-07-08T15:09:20 IST" duration-ms="310" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getUserAPIWith_Extract_Body_withJson -->
-        <test-method is-config="true" signature="allureSetup()[pri:0, instance:getAPIs.RA_02_GETAPIRequestWithBDDTest@480d3575]" started-at="2024-07-08T15:09:20 IST" name="allureSetup" finished-at="2024-07-08T15:09:20 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allureSetup -->
-        <test-method signature="getUserAPIWith_Extract_Body_withJson_Extract()[pri:7, instance:getAPIs.RA_02_GETAPIRequestWithBDDTest@480d3575]" started-at="2024-07-08T15:09:20 IST" name="getUserAPIWith_Extract_Body_withJson_Extract" finished-at="2024-07-08T15:09:20 IST" duration-ms="229" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getUserAPIWith_Extract_Body_withJson_Extract -->
-      </class> <!-- getAPIs.RA_02_GETAPIRequestWithBDDTest -->
+        </test-method> <!-- apiKeyAuthTest -->
+      </class> <!-- authAPIs.RA_08_AuthTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

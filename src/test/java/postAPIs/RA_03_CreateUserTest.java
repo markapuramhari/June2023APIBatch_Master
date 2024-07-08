@@ -31,7 +31,7 @@ public class RA_03_CreateUserTest {
 			.log().all()
 			.assertThat()
 			.statusCode(201)
-			.body("email", equalTo("harim111@gmail.com"))
+			.body("email", equalTo("mmm@gmail.com"))
 			.extract()
 			.path("id");
 		
