@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="authAPIs.RA_08_AuthTest">
+      <class name="_01_getAPIs.RA_02_GETAPIRequestWithBDDTest">
         <methods>
-          <include name="apiKeyAuthTest"/>
+          <include name="allureSetup"/>
+          <include name="getUserAPIWith_Extract_Body_withJson"/>
+          <include name="getUserAPIWith_Extract_Body_withJson_Extract"/>
         </methods>
-      </class> <!-- authAPIs.RA_08_AuthTest -->
+      </class> <!-- _01_getAPIs.RA_02_GETAPIRequestWithBDDTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
